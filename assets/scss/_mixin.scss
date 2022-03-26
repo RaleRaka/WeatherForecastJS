@@ -10,3 +10,9 @@
     background-color: $body-color;
   }
 }
+
+@mixin desktop {
+  @media (min-width: 420px) {
+    @content;
+  }
+}

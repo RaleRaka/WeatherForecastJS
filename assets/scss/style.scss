@@ -39,3 +39,9 @@
   font-weight: bold;
   border-radius: 10px;
 }
+
+@include desktop {
+  .weather-wrapper_submit-btn {
+    display: none;
+  }
+}
